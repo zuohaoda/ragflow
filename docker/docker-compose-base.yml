@@ -40,6 +40,7 @@ services:
     profiles:
       - infinity
     image: infiniflow/infinity:nightly
+    platform: linux/arm64
     volumes:
       - infinity_data:/var/infinity
       - ./infinity_conf.toml:/infinity_conf.toml
