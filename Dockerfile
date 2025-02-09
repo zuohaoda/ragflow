@@ -5,6 +5,7 @@ SHELL ["/bin/bash", "-c"]
 
 ARG NEED_MIRROR=0
 ARG LIGHTEN=0
+ARG ARCH='arm64'
 ENV LIGHTEN=${LIGHTEN}
 
 WORKDIR /ragflow
